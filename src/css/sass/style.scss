@@ -85,6 +85,7 @@ body {
 }
 
 header {
+    padding-bottom: 33px;
     .left {
         padding-top: 35px;
         float: left;
@@ -99,18 +100,42 @@ header {
     }
 
     .right {
-        margin-right: 504px;
+        margin-right: 486px;
         float: right;
-        padding-top: 50px;
+        padding-top: 36px;
 
-        ul {
-            li {
+        nav {
+        	font-size: 0;
+            a {
+            	font-weight: 100;
                 display: inline-block;
-                height: 20px;
+                line-height: 46px;
+                height: 47px;
                 font-size: 18px;
-                margin-left: 36px;
-                line-height: 15px;
                 color: white;
+                border-bottom: 1px solid #232f45;
+                position: relative;
+                letter-spacing: 0.25px;
+                padding: 0 20px;
+                &.active,&:hover{
+                	border-color: #00b7f4;
+                }
+                &:before,&:after{
+                	width: 5px;
+					height: 5px;
+					top: 21px;
+					box-shadow: 0 10px 70px #00cbff;
+					position: absolute;
+					content:'';
+					background-image: url(../img/pin.png);
+                }
+                &:before{
+					left: -2px;
+                }
+                &:after{
+				
+					right: -3px;
+                }
             }
         }
     }
@@ -128,7 +153,6 @@ header {
 }
 
 .sec1 {
-    padding-top: 33px;
 
     .left {
         float: left;
@@ -144,18 +168,30 @@ header {
                 font-size: 42px;
                 line-height: 25px;
                 color: #00cafe;
+                &:after{
+                	content:'';
+                	width: 28px;
+                	height: 3px;
+					background:#00cafe;
+					display: inline-block;
+					margin-left: 6px;
+					position: relative;
+					top: 3px;
+                }
             }
         }
 
         .blockmanager {
             width: 485px;
             height: 68px;
-            text-align: center;
+            text-align: left;
+            padding-left: 37px;
             line-height: 63px;
             font-size: 21px;
             background: url(../img/ramka1.png);
             background-repeat: no-repeat;
             color: white;
+            letter-spacing: -0.1px;
 
             span {
                 display: inline-block;
@@ -163,10 +199,10 @@ header {
                 height: 22px;
                 background-image: url(../img/arr-r.png);
                 background-repeat: no-repeat;
-                margin-right: -11px;
                 background-position: 9px 5px;
                 line-height: 65px;
                 font-size: 0;
+                margin-left: 4px;
             }
         }
     }
@@ -231,94 +267,108 @@ header {
 
             li {
                 color: white;
-                font-size: 15px;
+                font-size: 14px;
                 text-align: center;
                 line-height: 71px;
                 width: 310px;
                 display: inline-block;
                 height: 99px;
-                vertical-align: middle;
-            }
+                vertical-align: top;
+				span{
+	                line-height: 24px;
+	                font-weight: 500;
+                	display: inline-block;
+				}
+	            &:nth-of-type(1) {
+	                font-size: 22px;
+	                text-align: center;
+	                line-height: 94px;
+	                width: 250px;
+	                padding-right: 13px;
+	            }
 
-            :nth-of-type(1) {
-                font-size: 22px;
-                text-align: center;
-                line-height: 94px;
-                vertical-align: middle;
-                width: 250px;
-                padding-right: 13px;
-            }
+	            &:nth-of-type(2) {
+	                width: 313px;
+	                padding-left: 15px;
+	                padding-top: 2px;
+	                span{
+		                background-image: url(../img/ico1.png),url(../img/smallarr.png);
+		                background-position: left 1px,right 9px;
+		                padding-left:39px;
+		                padding-right: 36px;
+	                }
+	            }
 
-            :nth-of-type(2) {
-                width: 313px;
-                padding-left: 24px;
-                background: url(../img/ico1.png);
-                background-repeat: no-repeat;
-                background-position: 74px 25px;
-            }
+	            &:nth-of-type(3) {
+	                width: 345px;
+	                padding-right: 0px;
+	                font-size: 15px;
+	                background: url(../img/ico1.png);
+	                background-repeat: no-repeat;
+	                background-position: 48px 24px;
+	            }
 
-            :nth-of-type(3) {
-                width: 345px;
-                padding-right: 0px;
-                font-size: 15px;
-                line-height: 67px;
-                background: url(../img/ico1.png);
-                background-repeat: no-repeat;
-                background-position: 48px 24px;
-            }
+	            &:nth-of-type(4) {
+	                width: 337px;
+	                padding-right: 33px;
+	                font-size: 14px;
+	                background: url(../img/ico2.png);
+	                background-repeat: no-repeat;
+	                background-position: 72px 26px;
+	            }
 
-            :nth-of-type(4) {
-                width: 337px;
-                padding-right: 33px;
-                font-size: 14px;
-                background: url(../img/ico2.png);
-                background-repeat: no-repeat;
-                background-position: 72px 26px;
-            }
+	            &:nth-of-type(5) {
+	                width: 315px;
+	                padding-left: 30px;
+	                font-size: 14px;
+	                line-height: 67px;
+	                background: url(../img/ico3.png);
+	                background-repeat: no-repeat;
+	                background-position: 31px 25px;
+	            }
 
-            :nth-of-type(5) {
-                width: 315px;
-                padding-left: 30px;
-                font-size: 14px;
-                line-height: 67px;
-                background: url(../img/ico3.png);
-                background-repeat: no-repeat;
-                background-position: 31px 25px;
-            }
+	            &:nth-of-type(6) {
+	                width: 311px;
+	                font-size: 15px;
+	                color: #00cafe;
+	                text-align: left;
+	                background: url(../img/ico4.png);
+	                background-repeat: no-repeat;
+	                background-position: 33px 23px;
+	                padding-left: 57px;
+	                line-height: 14px;
+	                text-align: left;
+	                padding-top: 8px;
+					
+					span{
 
-            :nth-of-type(6) {
-                width: 311px;
-                font-size: 15px;
-                color: #00cafe;
-                text-align: left;
-                background: url(../img/ico4.png);
-                background-repeat: no-repeat;
-                background-position: 33px 23px;
-                padding-left: 57px;
-                line-height: 24px;
+		                font-size: 13px;
+						line-height: 13px;
+	                	display: inline-block;   
+	                	&.conv{
+							margin-right: 100px;
+		                    color: #00cafe;
+	                	}
+	                	&.any{
+		                	color: white;
+		                	background-image: url(../img/smallarr.png);
+		                	background-position: right 4px;
+		                	padding-right: 32px;
+		                	font-weight: 700;
 
-                span.conv {
-                    font-size: 20px;
-                    color: #00cafe;
-                }
+	                	}
+					}
+	            }
 
-                span.any {
-                    color: white;
-                    font-size: 13px;
-                }
-            }
+	            &:nth-of-type(7) {
+	                width: 138px;
+	                background: url(../img/ico5.png);
+	                background-repeat: no-repeat;
+	                background-position: 27px 23px;
+	                padding-left: 5px;
+	                line-height: 72px;
+	            }
 
-            :nth-of-type(7) {
-                width: 138px;
-                background: url(../img/ico5.png);
-                background-repeat: no-repeat;
-                background-position: 27px 23px;
-                padding-left: 5px;
-                line-height: 72px;
-            }
-
-            span.conv {
-                font-size: 15px;
             }
         }
     }
