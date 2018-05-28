@@ -332,18 +332,78 @@ header {
       position: relative;
       height: 262px;
       width: 100%; }
+      .sec3 .statistic .itemcon .speed {
+        height: 128px;
+        background-image: url(../img/speed-bg.png);
+        background-position: bottom;
+        position: relative;
+        width: 300px;
+        margin: 0 auto; }
+        .sec3 .statistic .itemcon .speed .strelka {
+          width: 60px;
+          height: 23px;
+          background-image: url(../img/speed_arrow.png);
+          position: absolute;
+          bottom: -10px;
+          left: 50%;
+          margin-left: -50px;
+          transform: rotate(30deg);
+          transform-origin: 48px 12px; }
+        .sec3 .statistic .itemcon .speed .text {
+          position: absolute;
+          font-size: 14px;
+          line-height: 14px;
+          height: 14px;
+          font-weight: 300;
+          width: 38px;
+          text-align: center; }
+          .sec3 .statistic .itemcon .speed .text.text1 {
+            left: 5px;
+            top: 118px;
+            text-align: right; }
+          .sec3 .statistic .itemcon .speed .text.text2 {
+            left: 38px;
+            top: 40px;
+            text-align: right; }
+          .sec3 .statistic .itemcon .speed .text.text3 {
+            top: 10px;
+            left: 50%;
+            margin-left: -19px; }
+          .sec3 .statistic .itemcon .speed .text.text4 {
+            right: 38px;
+            top: 40px;
+            text-align: left; }
+          .sec3 .statistic .itemcon .speed .text.text5 {
+            right: 5px;
+            top: 118px;
+            text-align: left; }
+        .sec3 .statistic .itemcon .speed .line {
+          position: absolute;
+          width: 50%;
+          height: 4px;
+          right: 50%;
+          bottom: 0;
+          transform-origin: right center;
+          transform: rotate(60deg); }
+          .sec3 .statistic .itemcon .speed .line:after {
+            position: absolute;
+            background: red;
+            right: 64px;
+            width: 29px;
+            height: 100%;
+            top: 0; }
       .sec3 .statistic .itemcon:nth-of-type(2n-1) {
         background-color: #172940; }
         .sec3 .statistic .itemcon:nth-of-type(2n-1):last-of-type {
           background-color: #0f405e; }
-      .sec3 .statistic .itemcon div {
+      .sec3 .statistic .itemcon > div {
         width: 248px;
         height: 262px;
         display: block;
         float: left;
         border: 1px solid #134663;
         position: relative; }
-        .sec3 .statistic .itemcon div:nth-of-type(1) {
+        .sec3 .statistic .itemcon > div:nth-of-type(1) {
           font-size: 19px;
           padding-left: 47px;
           text-align: left;
@@ -352,9 +412,8 @@ header {
           background-size: 255px;
           overflow: hidden;
           color: #00cafe;
-          padding-top: 182px;
-          }
-        .sec3 .statistic .itemcon div:nth-of-type(2) {
+          padding-top: 182px; }
+        .sec3 .statistic .itemcon > div:nth-of-type(2) {
           width: 315px;
           overflow: hidden;
           font-size: 16px;
@@ -364,31 +423,30 @@ header {
           color: white;
           background-image: url(../img/speedtest.png);
           background-position: 31px 28px; }
-          .sec3 .statistic .itemcon div:nth-of-type(2) span {
+          .sec3 .statistic .itemcon > div:nth-of-type(2) span {
             color: #6ac113;
             font-size: 30px;
             margin-left: 33px;
             line-height: 37px; }
-          .sec3 .statistic .itemcon div:nth-of-type(2) span.num2 {
+          .sec3 .statistic .itemcon > div:nth-of-type(2) span.num2 {
             color: #6ac113;
             font-size: 29px;
             margin-left: 70px; }
-        .sec3 .statistic .itemcon div:nth-of-type(3) {
+        .sec3 .statistic .itemcon > div:nth-of-type(3) {
           width: 345px;
           overflow: hidden;
           font-size: 16px;
-          padding-top: 160px;
+          padding-top: 20px;
           line-height: 77px;
-          padding-left: 28px;
           color: white;
-          background-image: url(../img/speedtest2.png);
+          text-align: center;
           background-position: 33px 26px; }
-          .sec3 .statistic .itemcon div:nth-of-type(3) span {
+          .sec3 .statistic .itemcon > div:nth-of-type(3) span {
             margin-left: 23px;
             font-size: 29px;
             line-height: 18px;
             color: #e5d90a; }
-        .sec3 .statistic .itemcon div:nth-of-type(4) {
+        .sec3 .statistic .itemcon > div:nth-of-type(4) {
           width: 339px;
           overflow: hidden;
           font-size: 16px;
@@ -398,7 +456,7 @@ header {
           color: white;
           background-image: url(../img/speedtest3.png);
           background-position: 36px 28px; }
-          .sec3 .statistic .itemcon div:nth-of-type(4) span {
+          .sec3 .statistic .itemcon > div:nth-of-type(4) span {
             margin-left: 28px;
             font-size: 29px;
             line-height: 18px;
@@ -573,9 +631,7 @@ header {
           height: 40px;
           display: block;
           width: 40px;
-          cursor: pointer;
-          background-size: 25px;
-          }
+          cursor: pointer; }
         .sec3 .statistic .itemcon div.last p {
           color: #68bf12;
           text-align: center;
