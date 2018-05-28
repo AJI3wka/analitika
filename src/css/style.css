@@ -5,17 +5,37 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-:after, :before {
+:after,
+:before {
   content: "";
   display: block;
   width: 100%;
   height: 0;
   clear: both; }
 
-sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
+sup:after,
+sup:before,
+a:after,
+a:before,
+br:after,
+br:before,
+img:after,
+img:before,
+span:after,
+span:before,
+table:after,
+table:before,
+td:after,
+td:before,
+tr:after,
+tr:before {
   content: none; }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-size: 1em;
   font-weight: inherit;
   text-align: center;
@@ -33,17 +53,23 @@ a {
   color: inherit;
   outline: 0 !important; }
 
-button, input, textarea {
+button,
+input,
+textarea {
   outline: none; }
 
-section, header, footer {
+section,
+header,
+footer {
   width: 100%;
   min-width: 2268px;
   overflow: hidden;
   position: relative;
   z-index: 2;
   background-size: cover !important; }
-  section > div, header > div, footer > div {
+  section > div,
+  header > div,
+  footer > div {
     max-width: 1960px;
     position: relative;
     z-index: 2;
@@ -51,7 +77,7 @@ section, header, footer {
     margin: 0 auto; }
 
 body {
-  background: url(../img/bg1.jpg); }
+  background-color: #0c1931; }
 
 header {
   padding-bottom: 33px; }
@@ -103,7 +129,8 @@ header {
     top: 16px;
     background-image: url(../img/phone.png);
     background-repeat: no-repeat;
-    background-position: -38px -16px; }
+    background-position: -38px -16px;
+    cursor: pointer; }
 
 .sec1 .left {
   float: left; }
@@ -136,7 +163,8 @@ header {
     background: url(../img/ramka1.png);
     background-repeat: no-repeat;
     color: white;
-    letter-spacing: -0.1px; }
+    letter-spacing: -0.1px;
+    cursor: pointer; }
     .sec1 .left .blockmanager span {
       display: inline-block;
       width: 20px;
@@ -166,7 +194,8 @@ header {
     background-repeat: no-repeat;
     background-position: 8px 8px;
     border-color: #00cbff;
-    color: white; }
+    color: white;
+    cursor: pointer; }
   .sec1 .right .history {
     font-size: 26px;
     display: inline-block;
@@ -181,7 +210,8 @@ header {
     background-position: 6px 5px;
     margin-left: 8px;
     border-color: #00cbff;
-    color: white; }
+    color: white;
+    cursor: pointer; }
 
 .sec1 .line {
   width: 1301px;
@@ -195,7 +225,8 @@ header {
     width: 2010px;
     margin-left: 6px; }
     .sec2 .top ul {
-      font-size: 0px; }
+      font-size: 0px;
+      background-color: #093d5a; }
       .sec2 .top ul li {
         color: white;
         font-size: 14px;
@@ -208,11 +239,12 @@ header {
         .sec2 .top ul li span {
           line-height: 24px;
           font-weight: 500;
-          display: inline-block; }
+          display: inline-block;
+          color: white; }
         .sec2 .top ul li:nth-of-type(1) {
           font-size: 22px;
           text-align: center;
-          line-height: 94px;
+          line-height: 97px;
           width: 250px;
           padding-right: 13px; }
         .sec2 .top ul li:nth-of-type(2) {
@@ -221,43 +253,49 @@ header {
           padding-top: 2px; }
           .sec2 .top ul li:nth-of-type(2) span {
             background-image: url(../img/ico1.png), url(../img/smallarr.png);
-            background-position: left 1px,right 9px;
+            background-position: left 1px, right 9px;
             padding-left: 39px;
             padding-right: 36px; }
         .sec2 .top ul li:nth-of-type(3) {
           width: 345px;
           padding-right: 0px;
-          font-size: 15px;
-          background: url(../img/ico1.png);
-          background-repeat: no-repeat;
-          background-position: 48px 24px; }
+          font-size: 15px; }
+          .sec2 .top ul li:nth-of-type(3) span {
+            background-image: url(../img/ico1.png), url(../img/smallarr.png);
+            background-position: 13px 3px, right 9px;
+            padding-left: 39px;
+            padding-right: 36px; }
         .sec2 .top ul li:nth-of-type(4) {
           width: 337px;
           padding-right: 33px;
           font-size: 14px;
-          background: url(../img/ico2.png);
-          background-repeat: no-repeat;
-          background-position: 72px 26px; }
+          line-height: 73px; }
+          .sec2 .top ul li:nth-of-type(4) span {
+            background-image: url(../img/ico2.png), url(../img/smallarr.png);
+            background-position: left 4px, right 10px;
+            padding-left: 39px;
+            padding-right: 36px; }
         .sec2 .top ul li:nth-of-type(5) {
           width: 315px;
-          padding-left: 30px;
+          padding-left: 23px;
           font-size: 14px;
-          line-height: 67px;
-          background: url(../img/ico3.png);
-          background-repeat: no-repeat;
-          background-position: 31px 25px; }
+          line-height: 71px; }
+          .sec2 .top ul li:nth-of-type(5) span {
+            background-image: url(../img/ico3.png), url(../img/smallarr.png);
+            background-position: 2px 3px, right 10px;
+            padding-left: 22px;
+            padding-right: 21px; }
         .sec2 .top ul li:nth-of-type(6) {
           width: 311px;
           font-size: 15px;
           color: #00cafe;
           text-align: left;
-          background: url(../img/ico4.png);
-          background-repeat: no-repeat;
-          background-position: 33px 23px;
           padding-left: 57px;
           line-height: 14px;
           text-align: left;
-          padding-top: 8px; }
+          padding-top: 8px;
+          background-image: url(../img/ico4.png);
+          background-position: 33px 25px; }
           .sec2 .top ul li:nth-of-type(6) span {
             font-size: 13px;
             line-height: 13px;
@@ -273,46 +311,285 @@ header {
               font-weight: 700; }
         .sec2 .top ul li:nth-of-type(7) {
           width: 138px;
-          background: url(../img/ico5.png);
-          background-repeat: no-repeat;
-          background-position: 27px 23px;
-          padding-left: 5px;
-          line-height: 72px; }
+          padding-left: 0px;
+          line-height: 77px; }
+          .sec2 .top ul li:nth-of-type(7) span {
+            background-image: url(../img/ico5.png), url(../img/smallarr.png);
+            background-position: -1px 1px, right 9px;
+            padding-left: 29px;
+            padding-right: 23px;
+            line-height: 30px; }
 
-.sec3 .statistic {
-  width: 2010px;
-  margin-left: 6px;
-  height: 262px; }
-  .sec3 .statistic ul {
-    font-size: 0px; }
-    .sec3 .statistic ul li {
-      display: inline-block;
-      width: 300px;
-      height: 262px; }
-    .sec3 .statistic ul :nth-of-type(1) {
-      width: 248px;
-      background: url(../); }
-    .sec3 .statistic ul :nth-of-type(2) {
-      width: 315px; }
-    .sec3 .statistic ul :nth-of-type(3) {
-      width: 345px; }
-    .sec3 .statistic ul :nth-of-type(4) {
-      width: 337px; }
-    .sec3 .statistic ul :nth-of-type(5) {
-      width: 315px; }
-    .sec3 .statistic ul :nth-of-type(6) {
-      width: 311px; }
-    .sec3 .statistic ul :nth-of-type(7) {
-      width: 136px; }
-
-#maket {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 100%;
-  background: url(../maket.jpg) no-repeat top center;
-  height: 13200px;
-  opacity: 0.5;
-  z-index: 10; }
+.sec3 {
+  padding-top: 1px; }
+  .sec3 .statistic {
+    width: 2010px;
+    margin-left: 6px;
+    height: 1326px;
+    border-radius: 1px;
+    margin-top: -1px; }
+    .sec3 .statistic .itemcon {
+      position: relative;
+      height: 262px;
+      width: 100%; }
+      .sec3 .statistic .itemcon:nth-of-type(2n-1) {
+        background-color: #172940; }
+        .sec3 .statistic .itemcon:nth-of-type(2n-1):last-of-type {
+          background-color: #0f405e; }
+      .sec3 .statistic .itemcon div {
+        width: 248px;
+        height: 262px;
+        display: block;
+        float: left;
+        border: 1px solid #134663;
+        position: relative; }
+        .sec3 .statistic .itemcon div:nth-of-type(1) {
+          font-size: 19px;
+          padding-left: 47px;
+          text-align: left;
+          background-image: url(../img/face1.png);
+          background-position: -10px -2px;
+          background-size: 255px;
+          overflow: hidden;
+          color: #00cafe;
+          padding-top: 182px;
+          }
+        .sec3 .statistic .itemcon div:nth-of-type(2) {
+          width: 315px;
+          overflow: hidden;
+          font-size: 16px;
+          padding-top: 160px;
+          line-height: 34px;
+          padding-left: 17px;
+          color: white;
+          background-image: url(../img/speedtest.png);
+          background-position: 31px 28px; }
+          .sec3 .statistic .itemcon div:nth-of-type(2) span {
+            color: #6ac113;
+            font-size: 30px;
+            margin-left: 33px;
+            line-height: 37px; }
+          .sec3 .statistic .itemcon div:nth-of-type(2) span.num2 {
+            color: #6ac113;
+            font-size: 29px;
+            margin-left: 70px; }
+        .sec3 .statistic .itemcon div:nth-of-type(3) {
+          width: 345px;
+          overflow: hidden;
+          font-size: 16px;
+          padding-top: 160px;
+          line-height: 77px;
+          padding-left: 28px;
+          color: white;
+          background-image: url(../img/speedtest2.png);
+          background-position: 33px 26px; }
+          .sec3 .statistic .itemcon div:nth-of-type(3) span {
+            margin-left: 23px;
+            font-size: 29px;
+            line-height: 18px;
+            color: #e5d90a; }
+        .sec3 .statistic .itemcon div:nth-of-type(4) {
+          width: 339px;
+          overflow: hidden;
+          font-size: 16px;
+          padding-top: 160px;
+          line-height: 78px;
+          padding-left: 34px;
+          color: white;
+          background-image: url(../img/speedtest3.png);
+          background-position: 36px 28px; }
+          .sec3 .statistic .itemcon div:nth-of-type(4) span {
+            margin-left: 28px;
+            font-size: 29px;
+            line-height: 18px;
+            color: #ed7826; }
+      .sec3 .statistic .itemcon .sum {
+        width: 313px;
+        height: 262px; }
+        .sec3 .statistic .itemcon .sum p.text {
+          display: block;
+          color: white;
+          padding-top: 32px;
+          padding-left: 20px;
+          margin-bottom: 10px; }
+        .sec3 .statistic .itemcon .sum p.verx {
+          color: white;
+          font-size: 20px;
+          display: block;
+          width: 100%;
+          height: 49px;
+          background-image: url(../img/line.png);
+          background-size: 251px;
+          background-position: 19px 36px; }
+          .sec3 .statistic .itemcon .sum p.verx:after {
+            width: 40px;
+            bacground: red;
+            font-size: 10px; }
+          .sec3 .statistic .itemcon .sum p.verx span.l {
+            padding-top: 11px;
+            font-size: 21px;
+            padding-left: 11px;
+            display: inline-block;
+            text-align: left; }
+          .sec3 .statistic .itemcon .sum p.verx span.mid {
+            display: inline-block;
+            margin-left: 86px;
+            padding-top: 3px;
+            text-align: center;
+            vertical-align: top; }
+          .sec3 .statistic .itemcon .sum p.verx span.r {
+            display: inline-block;
+            margin-left: 47px;
+            text-align: right;
+            font-size: 21px; }
+        .sec3 .statistic .itemcon .sum p.right {
+          width: 280px;
+          height: 26px;
+          display: inline-block;
+          margin-left: 19px; }
+          .sec3 .statistic .itemcon .sum p.right span.bottom {
+            width: 70px;
+            background-color: #68bf12;
+            height: 26px;
+            display: inline-block; }
+          .sec3 .statistic .itemcon .sum p.right span.text2 {
+            display: inline-block;
+            font-size: 23px;
+            margin-left: 8px;
+            color: white;
+            vertical-align: top; }
+          .sec3 .statistic .itemcon .sum p.right span.bottom2 {
+            width: 170px;
+            background-color: #b8e013;
+            height: 26px;
+            display: inline-block; }
+          .sec3 .statistic .itemcon .sum p.right span.bottom3 {
+            width: 70px;
+            background-color: #f13300;
+            height: 26px;
+            display: inline-block; }
+          .sec3 .statistic .itemcon .sum p.right span.bottom4 {
+            width: 201px;
+            background-color: #9ae216;
+            height: 26px;
+            display: inline-block; }
+          .sec3 .statistic .itemcon .sum p.right span.bottom5 {
+            width: 70px;
+            background-color: #f13300;
+            height: 26px;
+            display: inline-block; }
+        .sec3 .statistic .itemcon .sum p.niz {
+          height: 60px;
+          margin-top: 30px;
+          margin-left: 19px; }
+          .sec3 .statistic .itemcon .sum p.niz span.check {
+            width: 130px;
+            color: white;
+            display: block;
+            margin-bottom: 2px; }
+          .sec3 .statistic .itemcon .sum p.niz span.shkal {
+            display: inline-block;
+            width: 146px;
+            background-color: #68bf12;
+            height: 26px; }
+          .sec3 .statistic .itemcon .sum p.niz span.shkal_1 {
+            display: inline-block;
+            width: 78px;
+            background-color: #f13300;
+            height: 26px; }
+          .sec3 .statistic .itemcon .sum p.niz span.shkal_2 {
+            display: inline-block;
+            width: 70px;
+            background-color: #f13300;
+            height: 26px; }
+          .sec3 .statistic .itemcon .sum p.niz span.shkal_3 {
+            display: inline-block;
+            width: 146px;
+            background-color: #68bf12;
+            height: 26px; }
+          .sec3 .statistic .itemcon .sum p.niz span.shkal_4 {
+            display: inline-block;
+            width: 146px;
+            background-color: #68bf12;
+            height: 26px; }
+          .sec3 .statistic .itemcon .sum p.niz span.text3 {
+            display: inline-block;
+            font-size: 23px;
+            color: white;
+            margin-left: 4px;
+            vertical-align: top;
+            width: 100px; }
+      .sec3 .statistic .itemcon .row {
+        float: left;
+        width: 313px;
+        height: 262px; }
+        .sec3 .statistic .itemcon .row .left {
+          width: 205px;
+          border: none;
+          float: left;
+          text-align: left;
+          padding-left: 10px;
+          padding-top: 43px;
+          font-size: 12px;
+          color: white;
+          line-height: 19px;
+          background-image: none; }
+          .sec3 .statistic .itemcon .row .left p {
+            padding-top: 15px; }
+        .sec3 .statistic .itemcon .row .right {
+          width: 98px;
+          border: none;
+          float: right;
+          text-align: right;
+          margin-right: 8px;
+          padding-top: 44px;
+          color: white;
+          line-height: 18px;
+          font-size: 24px;
+          padding-left: 0;
+          background-image: none; }
+        .sec3 .statistic .itemcon .row p.prc {
+          padding-top: 15px; }
+          .sec3 .statistic .itemcon .row p.prc:nth-of-type(1) {
+            color: #f13300; }
+          .sec3 .statistic .itemcon .row p.prc:nth-of-type(2) {
+            color: #dae800; }
+          .sec3 .statistic .itemcon .row p.prc:nth-of-type(3) {
+            color: #dae800; }
+          .sec3 .statistic .itemcon .row p.prc:nth-of-type(4) {
+            color: #68bf12; }
+          .sec3 .statistic .itemcon .row p.prc:nth-of-type(5) {
+            color: #68bf12; }
+      .sec3 .statistic .itemcon div.last {
+        width: 137px;
+        vertical-align: middle;
+        height: 100%;
+        padding: 0 5px; }
+        .sec3 .statistic .itemcon div.last .infoico {
+          background-image: url(../img/info.png);
+          position: absolute;
+          right: 0px;
+          top: 14px;
+          height: 40px;
+          display: block;
+          width: 40px;
+          cursor: pointer;
+          background-size: 25px;
+          }
+        .sec3 .statistic .itemcon div.last p {
+          color: #68bf12;
+          text-align: center;
+          width: 100%;
+          font-size: 39px;
+          vertical-align: middle;
+          display: inline-block;
+          margin-top: 46px;
+          border-bottom: 1px solid #00cbff; }
+          .sec3 .statistic .itemcon div.last p:nth-of-type(2) {
+            margin-top: 0; }
+          .sec3 .statistic .itemcon div.last p:nth-of-type(3) {
+            margin-top: 0;
+            width: 121px;
+            letter-spacing: -2px; }
 
 /*# sourceMappingURL=style.css.map */
