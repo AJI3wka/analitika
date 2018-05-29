@@ -70,7 +70,7 @@ footer {
   section > div,
   header > div,
   footer > div {
-    max-width: 1960px;
+    max-width: 2010px;
     position: relative;
     z-index: 2;
     height: 100%;
@@ -221,13 +221,13 @@ header {
 
 .sec2 {
   padding-top: 70px; }
-  .sec2 .top {
+  .sec2 table thead {
     width: 2010px;
     margin-left: 6px; }
-    .sec2 .top ul {
+    .sec2 table thead tr {
       font-size: 0px;
       background-color: #093d5a; }
-      .sec2 .top ul li {
+      .sec2 table thead tr th {
         color: white;
         font-size: 14px;
         text-align: center;
@@ -236,56 +236,56 @@ header {
         display: inline-block;
         height: 99px;
         vertical-align: top; }
-        .sec2 .top ul li span {
+        .sec2 table thead tr th span {
           line-height: 24px;
           font-weight: 500;
           display: inline-block;
           color: white; }
-        .sec2 .top ul li:nth-of-type(1) {
+        .sec2 table thead tr th:nth-of-type(1) {
           font-size: 22px;
           text-align: center;
           line-height: 97px;
           width: 250px;
           padding-right: 13px; }
-        .sec2 .top ul li:nth-of-type(2) {
+        .sec2 table thead tr th:nth-of-type(2) {
           width: 313px;
           padding-left: 15px;
           padding-top: 2px; }
-          .sec2 .top ul li:nth-of-type(2) span {
+          .sec2 table thead tr th:nth-of-type(2) span {
             background-image: url(../img/ico1.png), url(../img/smallarr.png);
             background-position: left 1px, right 9px;
             padding-left: 39px;
             padding-right: 36px; }
-        .sec2 .top ul li:nth-of-type(3) {
+        .sec2 table thead tr th:nth-of-type(3) {
           width: 345px;
           padding-right: 0px;
           font-size: 15px; }
-          .sec2 .top ul li:nth-of-type(3) span {
+          .sec2 table thead tr th:nth-of-type(3) span {
             background-image: url(../img/ico1.png), url(../img/smallarr.png);
             background-position: 13px 3px, right 9px;
             padding-left: 39px;
             padding-right: 36px; }
-        .sec2 .top ul li:nth-of-type(4) {
+        .sec2 table thead tr th:nth-of-type(4) {
           width: 337px;
           padding-right: 33px;
           font-size: 14px;
           line-height: 73px; }
-          .sec2 .top ul li:nth-of-type(4) span {
+          .sec2 table thead tr th:nth-of-type(4) span {
             background-image: url(../img/ico2.png), url(../img/smallarr.png);
             background-position: left 4px, right 10px;
             padding-left: 39px;
             padding-right: 36px; }
-        .sec2 .top ul li:nth-of-type(5) {
+        .sec2 table thead tr th:nth-of-type(5) {
           width: 315px;
           padding-left: 23px;
           font-size: 14px;
           line-height: 71px; }
-          .sec2 .top ul li:nth-of-type(5) span {
+          .sec2 table thead tr th:nth-of-type(5) span {
             background-image: url(../img/ico3.png), url(../img/smallarr.png);
             background-position: 2px 3px, right 10px;
             padding-left: 22px;
             padding-right: 21px; }
-        .sec2 .top ul li:nth-of-type(6) {
+        .sec2 table thead tr th:nth-of-type(6) {
           width: 311px;
           font-size: 15px;
           color: #00cafe;
@@ -296,356 +296,391 @@ header {
           padding-top: 8px;
           background-image: url(../img/ico4.png);
           background-position: 33px 25px; }
-          .sec2 .top ul li:nth-of-type(6) span {
+          .sec2 table thead tr th:nth-of-type(6) span {
             font-size: 13px;
             line-height: 13px;
             display: inline-block; }
-            .sec2 .top ul li:nth-of-type(6) span.conv {
+            .sec2 table thead tr th:nth-of-type(6) span.conv {
               margin-right: 100px;
               color: #00cafe; }
-            .sec2 .top ul li:nth-of-type(6) span.any {
+            .sec2 table thead tr th:nth-of-type(6) span.any {
               color: white;
               background-image: url(../img/smallarr.png);
               background-position: right 4px;
               padding-right: 32px;
               font-weight: 700; }
-        .sec2 .top ul li:nth-of-type(7) {
+        .sec2 table thead tr th:nth-of-type(7) {
           width: 138px;
           padding-left: 0px;
           line-height: 77px; }
-          .sec2 .top ul li:nth-of-type(7) span {
+          .sec2 table thead tr th:nth-of-type(7) span {
             background-image: url(../img/ico5.png), url(../img/smallarr.png);
             background-position: -1px 1px, right 9px;
             padding-left: 29px;
             padding-right: 23px;
             line-height: 30px; }
 
-.sec3 {
-  padding-top: 1px; }
-  .sec3 .statistic {
-    width: 2010px;
-    margin-left: 6px;
-    height: 1326px;
-    border-radius: 1px;
-    margin-top: -1px; }
-    .sec3 .statistic .itemcon {
-      position: relative;
-      height: 262px;
-      width: 100%; }
-      .sec3 .statistic .itemcon .speed {
-        height: 128px;
-        background-image: url(../img/speed-bg.png);
-        background-position: bottom;
-        position: relative;
-        width: 300px;
-        margin: 0 auto; }
-        .sec3 .statistic .itemcon .speed .strelka {
-          width: 60px;
-          height: 23px;
-          background-image: url(../img/speed_arrow.png);
-          position: absolute;
-          bottom: -10px;
-          left: 50%;
-          margin-left: -50px;
-          transform: rotate(30deg);
-          transform-origin: 48px 12px; }
-        .sec3 .statistic .itemcon .speed .text {
-          position: absolute;
-          font-size: 14px;
-          line-height: 14px;
-          height: 14px;
-          font-weight: 300;
-          width: 38px;
-          text-align: center; }
-          .sec3 .statistic .itemcon .speed .text.text1 {
-            left: 5px;
-            top: 118px;
-            text-align: right; }
-          .sec3 .statistic .itemcon .speed .text.text2 {
-            left: 38px;
-            top: 40px;
-            text-align: right; }
-          .sec3 .statistic .itemcon .speed .text.text3 {
-            top: 10px;
-            left: 50%;
-            margin-left: -19px; }
-          .sec3 .statistic .itemcon .speed .text.text4 {
-            right: 38px;
-            top: 40px;
-            text-align: left; }
-          .sec3 .statistic .itemcon .speed .text.text5 {
-            right: 5px;
-            top: 118px;
-            text-align: left; }
-        .sec3 .statistic .itemcon .speed .line {
-          position: absolute;
-          width: 50%;
-          height: 4px;
-          right: 50%;
-          bottom: 0;
-          transform-origin: right center;
-          transform: rotate(60deg); }
-          .sec3 .statistic .itemcon .speed .line:after {
-            position: absolute;
-            background: red;
-            right: 64px;
-            width: 29px;
-            height: 100%;
-            top: 0; }
-      .sec3 .statistic .itemcon:nth-of-type(2n-1) {
-        background-color: #172940; }
-        .sec3 .statistic .itemcon:nth-of-type(2n-1):last-of-type {
-          background-color: #0f405e; }
-      .sec3 .statistic .itemcon > div {
-        width: 248px;
-        height: 262px;
-        display: block;
-        float: left;
-        border: 1px solid #134663;
-        position: relative; }
-        .sec3 .statistic .itemcon > div:nth-of-type(1) {
-          font-size: 19px;
-          padding-left: 47px;
-          text-align: left;
-          background-image: url(../img/face1.png);
-          background-position: -10px -2px;
-          background-size: 255px;
-          overflow: hidden;
-          color: #00cafe;
-          padding-top: 182px; }
-        .sec3 .statistic .itemcon > div:nth-of-type(2) {
-          width: 315px;
-          overflow: hidden;
-          font-size: 16px;
-          padding-top: 160px;
-          line-height: 34px;
-          padding-left: 17px;
-          color: white;
-          background-image: url(../img/speedtest.png);
-          background-position: 31px 28px; }
-          .sec3 .statistic .itemcon > div:nth-of-type(2) span {
-            color: #6ac113;
-            font-size: 30px;
-            margin-left: 33px;
-            line-height: 37px; }
-          .sec3 .statistic .itemcon > div:nth-of-type(2) span.num2 {
-            color: #6ac113;
-            font-size: 29px;
-            margin-left: 70px; }
-        .sec3 .statistic .itemcon > div:nth-of-type(3) {
-          width: 345px;
-          overflow: hidden;
-          font-size: 16px;
-          padding-top: 20px;
-          line-height: 77px;
-          color: white;
-          text-align: center;
-          background-position: 33px 26px; }
-          .sec3 .statistic .itemcon > div:nth-of-type(3) span {
-            margin-left: 23px;
-            font-size: 29px;
-            line-height: 18px;
-            color: #e5d90a; }
-        .sec3 .statistic .itemcon > div:nth-of-type(4) {
-          width: 339px;
-          overflow: hidden;
-          font-size: 16px;
-          padding-top: 160px;
-          line-height: 78px;
-          padding-left: 34px;
-          color: white;
-          background-image: url(../img/speedtest3.png);
-          background-position: 36px 28px; }
-          .sec3 .statistic .itemcon > div:nth-of-type(4) span {
-            margin-left: 28px;
-            font-size: 29px;
-            line-height: 18px;
-            color: #ed7826; }
-      .sec3 .statistic .itemcon .sum {
-        width: 313px;
-        height: 262px; }
-        .sec3 .statistic .itemcon .sum p.text {
-          display: block;
-          color: white;
-          padding-top: 32px;
-          padding-left: 20px;
-          margin-bottom: 10px; }
-        .sec3 .statistic .itemcon .sum p.verx {
-          color: white;
-          font-size: 20px;
-          display: block;
-          width: 100%;
-          height: 49px;
-          background-image: url(../img/line.png);
-          background-size: 251px;
-          background-position: 19px 36px; }
-          .sec3 .statistic .itemcon .sum p.verx:after {
-            width: 40px;
-            bacground: red;
-            font-size: 10px; }
-          .sec3 .statistic .itemcon .sum p.verx span.l {
-            padding-top: 11px;
-            font-size: 21px;
-            padding-left: 11px;
-            display: inline-block;
-            text-align: left; }
-          .sec3 .statistic .itemcon .sum p.verx span.mid {
-            display: inline-block;
-            margin-left: 86px;
-            padding-top: 3px;
-            text-align: center;
-            vertical-align: top; }
-          .sec3 .statistic .itemcon .sum p.verx span.r {
-            display: inline-block;
-            margin-left: 47px;
-            text-align: right;
-            font-size: 21px; }
-        .sec3 .statistic .itemcon .sum p.right {
-          width: 280px;
-          height: 26px;
-          display: inline-block;
-          margin-left: 19px; }
-          .sec3 .statistic .itemcon .sum p.right span.bottom {
-            width: 70px;
-            background-color: #68bf12;
-            height: 26px;
-            display: inline-block; }
-          .sec3 .statistic .itemcon .sum p.right span.text2 {
-            display: inline-block;
-            font-size: 23px;
-            margin-left: 8px;
-            color: white;
-            vertical-align: top; }
-          .sec3 .statistic .itemcon .sum p.right span.bottom2 {
-            width: 170px;
-            background-color: #b8e013;
-            height: 26px;
-            display: inline-block; }
-          .sec3 .statistic .itemcon .sum p.right span.bottom3 {
-            width: 70px;
-            background-color: #f13300;
-            height: 26px;
-            display: inline-block; }
-          .sec3 .statistic .itemcon .sum p.right span.bottom4 {
-            width: 201px;
-            background-color: #9ae216;
-            height: 26px;
-            display: inline-block; }
-          .sec3 .statistic .itemcon .sum p.right span.bottom5 {
-            width: 70px;
-            background-color: #f13300;
-            height: 26px;
-            display: inline-block; }
-        .sec3 .statistic .itemcon .sum p.niz {
-          height: 60px;
-          margin-top: 30px;
-          margin-left: 19px; }
-          .sec3 .statistic .itemcon .sum p.niz span.check {
-            width: 130px;
-            color: white;
-            display: block;
-            margin-bottom: 2px; }
-          .sec3 .statistic .itemcon .sum p.niz span.shkal {
-            display: inline-block;
-            width: 146px;
-            background-color: #68bf12;
-            height: 26px; }
-          .sec3 .statistic .itemcon .sum p.niz span.shkal_1 {
-            display: inline-block;
-            width: 78px;
-            background-color: #f13300;
-            height: 26px; }
-          .sec3 .statistic .itemcon .sum p.niz span.shkal_2 {
-            display: inline-block;
-            width: 70px;
-            background-color: #f13300;
-            height: 26px; }
-          .sec3 .statistic .itemcon .sum p.niz span.shkal_3 {
-            display: inline-block;
-            width: 146px;
-            background-color: #68bf12;
-            height: 26px; }
-          .sec3 .statistic .itemcon .sum p.niz span.shkal_4 {
-            display: inline-block;
-            width: 146px;
-            background-color: #68bf12;
-            height: 26px; }
-          .sec3 .statistic .itemcon .sum p.niz span.text3 {
-            display: inline-block;
-            font-size: 23px;
-            color: white;
-            margin-left: 4px;
-            vertical-align: top;
-            width: 100px; }
-      .sec3 .statistic .itemcon .row {
-        float: left;
-        width: 313px;
-        height: 262px; }
-        .sec3 .statistic .itemcon .row .left {
-          width: 205px;
-          border: none;
-          float: left;
-          text-align: left;
-          padding-left: 10px;
-          padding-top: 43px;
-          font-size: 12px;
-          color: white;
-          line-height: 19px;
-          background-image: none; }
-          .sec3 .statistic .itemcon .row .left p {
-            padding-top: 15px; }
-        .sec3 .statistic .itemcon .row .right {
-          width: 98px;
-          border: none;
-          float: right;
-          text-align: right;
-          margin-right: 8px;
-          padding-top: 44px;
-          color: white;
-          line-height: 18px;
-          font-size: 24px;
-          padding-left: 0;
-          background-image: none; }
-        .sec3 .statistic .itemcon .row p.prc {
-          padding-top: 15px; }
-          .sec3 .statistic .itemcon .row p.prc:nth-of-type(1) {
-            color: #f13300; }
-          .sec3 .statistic .itemcon .row p.prc:nth-of-type(2) {
-            color: #dae800; }
-          .sec3 .statistic .itemcon .row p.prc:nth-of-type(3) {
-            color: #dae800; }
-          .sec3 .statistic .itemcon .row p.prc:nth-of-type(4) {
-            color: #68bf12; }
-          .sec3 .statistic .itemcon .row p.prc:nth-of-type(5) {
-            color: #68bf12; }
-      .sec3 .statistic .itemcon div.last {
-        width: 137px;
-        vertical-align: middle;
+.itemcon {
+  position: relative;
+  height: 262px;
+  width: 100%; }
+  .itemcon .speed {
+    height: 128px;
+    background-image: url(../img/speed-bg.png);
+    background-position: bottom;
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    .itemcon .speed .strelka {
+      width: 60px;
+      height: 23px;
+      background-image: url(../img/speed_arrow.png);
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      margin-left: -50px;
+      transform: rotate(30deg);
+      transform-origin: 48px 12px; }
+    .itemcon .speed .text {
+      position: absolute;
+      font-size: 14px;
+      line-height: 14px;
+      height: 14px;
+      font-weight: 300;
+      width: 38px;
+      text-align: center; }
+      .itemcon .speed .text.text1 {
+        left: 5px;
+        top: 118px;
+        text-align: right; }
+      .itemcon .speed .text.text2 {
+        left: 38px;
+        top: 40px;
+        text-align: right; }
+      .itemcon .speed .text.text3 {
+        top: 10px;
+        left: 50%;
+        margin-left: -19px; }
+      .itemcon .speed .text.text4 {
+        right: 38px;
+        top: 40px;
+        text-align: left; }
+      .itemcon .speed .text.text5 {
+        right: 5px;
+        top: 118px;
+        text-align: left; }
+    .itemcon .speed .line {
+      position: absolute;
+      width: 50%;
+      height: 4px;
+      right: 50%;
+      bottom: 0;
+      transform-origin: right center;
+      transform: rotate(60deg); }
+      .itemcon .speed .line:after {
+        position: absolute;
+        background: red;
+        right: 64px;
+        width: 29px;
         height: 100%;
-        padding: 0 5px; }
-        .sec3 .statistic .itemcon div.last .infoico {
-          background-image: url(../img/info.png);
-          position: absolute;
-          right: 0px;
-          top: 14px;
-          height: 40px;
-          display: block;
-          width: 40px;
-          cursor: pointer; }
-        .sec3 .statistic .itemcon div.last p {
-          color: #68bf12;
-          text-align: center;
-          width: 100%;
-          font-size: 39px;
-          vertical-align: middle;
-          display: inline-block;
-          margin-top: 46px;
-          border-bottom: 1px solid #00cbff; }
-          .sec3 .statistic .itemcon div.last p:nth-of-type(2) {
-            margin-top: 0; }
-          .sec3 .statistic .itemcon div.last p:nth-of-type(3) {
-            margin-top: 0;
-            width: 121px;
-            letter-spacing: -2px; }
+        top: 0; }
+  .itemcon:nth-of-type(2n-1) {
+    background-color: #172940; }
+    .itemcon:nth-of-type(2n-1):last-of-type {
+      background-color: #0f405e; }
+  .itemcon td {
+    width: 248px;
+    height: 262px;
+    display: block;
+    float: left;
+    border: 1px solid #134663;
+    position: relative; }
+    .itemcon td:nth-of-type(1) {
+      font-size: 19px;
+      background-image: url(../img/facebg.png);
+      background-position: -10px -2px;
+      background-size: 255px;
+      overflow: hidden;
+      color: #00cafe;
+      text-align: center;
+      padding-right: 8px; }
+      .itemcon td:nth-of-type(1) img {
+        display: block;
+        margin: 78px auto 0;
+        border-radius: 100%; }
+    .itemcon td:nth-of-type(2) {
+      width: 315px;
+      overflow: hidden;
+      font-size: 16px;
+      padding-top: 20px;
+      line-height: 34px;
+      padding-left: 17px;
+      color: white; }
+      .itemcon td:nth-of-type(2) span {
+        color: #6ac113;
+        font-size: 30px;
+        margin-left: 33px;
+        line-height: 37px; }
+      .itemcon td:nth-of-type(2) span.num2 {
+        color: #6ac113;
+        font-size: 29px;
+        margin-left: 70px; }
+    .itemcon td:nth-of-type(3) {
+      width: 345px;
+      overflow: hidden;
+      font-size: 16px;
+      padding-top: 20px;
+      line-height: 77px;
+      color: white;
+      text-align: center; }
+      .itemcon td:nth-of-type(3) span {
+        margin-left: 23px;
+        font-size: 29px;
+        line-height: 18px;
+        color: #e5d90a; }
+    .itemcon td:nth-of-type(4) {
+      width: 339px;
+      overflow: hidden;
+      font-size: 16px;
+      padding-top: 18px;
+      line-height: 78px;
+      padding-left: 16px;
+      color: white; }
+      .itemcon td:nth-of-type(4) span {
+        margin-left: 28px;
+        font-size: 29px;
+        line-height: 18px;
+        color: #ed7826; }
+  .itemcon .namename {
+    padding-top: 25px; }
+  .itemcon .sum {
+    width: 313px;
+    height: 262px; }
+    .itemcon .sum p.text {
+      display: block;
+      color: white;
+      padding-top: 32px;
+      padding-left: 20px;
+      margin-bottom: 10px; }
+    .itemcon .sum p.verx {
+      color: white;
+      font-size: 20px;
+      display: block;
+      width: 100%;
+      height: 49px;
+      background-image: url(../img/line.png);
+      background-size: 251px;
+      background-position: 19px 36px; }
+      .itemcon .sum p.verx:after {
+        width: 40px;
+        bacground: red;
+        font-size: 10px; }
+      .itemcon .sum p.verx span.l {
+        padding-top: 11px;
+        font-size: 21px;
+        padding-left: 11px;
+        display: inline-block;
+        text-align: left; }
+      .itemcon .sum p.verx span.mid {
+        display: inline-block;
+        margin-left: 86px;
+        padding-top: 3px;
+        text-align: center;
+        vertical-align: top; }
+      .itemcon .sum p.verx span.r {
+        display: inline-block;
+        margin-left: 47px;
+        text-align: right;
+        font-size: 21px; }
+    .itemcon .sum p.right {
+      width: 280px;
+      height: 26px;
+      display: inline-block;
+      margin-left: 19px; }
+      .itemcon .sum p.right span.bottom {
+        width: 70px;
+        background-color: #68bf12;
+        height: 26px;
+        display: inline-block; }
+      .itemcon .sum p.right span.text2 {
+        display: inline-block;
+        font-size: 23px;
+        margin-left: 8px;
+        color: white;
+        vertical-align: top; }
+      .itemcon .sum p.right span.bottom2 {
+        width: 170px;
+        background-color: #b8e013;
+        height: 26px;
+        display: inline-block; }
+      .itemcon .sum p.right span.bottom3 {
+        width: 70px;
+        background-color: #f13300;
+        height: 26px;
+        display: inline-block; }
+      .itemcon .sum p.right span.bottom4 {
+        width: 201px;
+        background-color: #9ae216;
+        height: 26px;
+        display: inline-block; }
+      .itemcon .sum p.right span.bottom5 {
+        width: 70px;
+        background-color: #f13300;
+        height: 26px;
+        display: inline-block; }
+    .itemcon .sum p.niz {
+      height: 60px;
+      margin-top: 30px;
+      margin-left: 19px; }
+      .itemcon .sum p.niz span.check {
+        width: 130px;
+        color: white;
+        display: block;
+        margin-bottom: 2px; }
+      .itemcon .sum p.niz span.shkal {
+        display: inline-block;
+        width: 146px;
+        background-color: #68bf12;
+        height: 26px; }
+      .itemcon .sum p.niz span.shkal_1 {
+        display: inline-block;
+        width: 78px;
+        background-color: #f13300;
+        height: 26px; }
+      .itemcon .sum p.niz span.shkal_2 {
+        display: inline-block;
+        width: 70px;
+        background-color: #f13300;
+        height: 26px; }
+      .itemcon .sum p.niz span.shkal_3 {
+        display: inline-block;
+        width: 146px;
+        background-color: #68bf12;
+        height: 26px; }
+      .itemcon .sum p.niz span.shkal_4 {
+        display: inline-block;
+        width: 146px;
+        background-color: #68bf12;
+        height: 26px; }
+      .itemcon .sum p.niz span.text3 {
+        display: inline-block;
+        font-size: 23px;
+        color: white;
+        margin-left: 4px;
+        vertical-align: top;
+        width: 100px; }
+  .itemcon .row {
+    width: 313px;
+    line-height: 38px;
+    padding-left: 22px;
+    padding-top: 27px; }
+    .itemcon .row .rd {
+      color: white; }
+      .itemcon .row .rd:nth-of-type(1) p.prc {
+        color: #f13300; }
+      .itemcon .row .rd:nth-of-type(2) p.prc {
+        color: #dae800; }
+      .itemcon .row .rd:nth-of-type(3) p.prc {
+        color: #dae800; }
+      .itemcon .row .rd:nth-of-type(4) p.prc {
+        color: #68bf12; }
+      .itemcon .row .rd:nth-of-type(5) p.prc {
+        color: #68bf12; }
+      .itemcon .row .rd p {
+        float: left;
+        color: white;
+        font-size: 12px; }
+      .itemcon .row .rd p.prc {
+        float: right;
+        font-size: 24px;
+        padding-right: 8px; }
+  .itemcon td.last {
+    width: 137px;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 5px; }
+    .itemcon td.last .infoico {
+      background-image: url(../img/info.png);
+      position: absolute;
+      right: 0px;
+      top: 14px;
+      height: 40px;
+      display: block;
+      width: 40px;
+      cursor: pointer; }
+      .itemcon td.last .infoico:hover .info-wrap {
+        display: block; }
+      .itemcon td.last .infoico:hover .ico {
+        position: absolute;
+        right: 0px;
+        top: 14px;
+        height: 40px;
+        display: block;
+        width: 40px;
+        cursor: pointer;
+        transition: all 0.5s ease; }
+        .itemcon td.last .infoico:hover .ico :hover {
+          display: none; }
+      .itemcon td.last .infoico .info-wrap {
+        display: none;
+        width: 254px;
+        height: 202px;
+        opacity: 0.83;
+        background-color: #0c1931;
+        border: 2px solid #0a3d5b;
+        border-radius: 2px;
+        box-shadow: 0 0 6px rgba(0, 203, 255, 0.14), 0 0 10px #00c7fa;
+        color: white;
+        position: absolute;
+        right: 30px;
+        top: 30px; }
+        .itemcon td.last .infoico .info-wrap:hover {
+          display: block; }
+        .itemcon td.last .infoico .info-wrap .ri {
+          padding-top: 17px;
+          text-align: left;
+          color: white;
+          font-size: 19px;
+          line-height: 21px; }
+          .itemcon td.last .infoico .info-wrap .ri .sumprod {
+            background-image: url(../img/el1.png);
+            background-position: 22px 12px;
+            padding-left: 55px; }
+            .itemcon td.last .infoico .info-wrap .ri .sumprod span {
+              color: #68bf12; }
+          .itemcon td.last .infoico .info-wrap .ri .kach {
+            background-image: url(../img/el2.png);
+            background-position: 22px 12px;
+            padding-left: 55px; }
+            .itemcon td.last .infoico .info-wrap .ri .kach span {
+              color: #68bf12; }
+          .itemcon td.last .infoico .info-wrap .ri .Kbp {
+            background-image: url(../img/el3.png);
+            background-position: 22px 12px;
+            padding-left: 55px; }
+            .itemcon td.last .infoico .info-wrap .ri .Kbp span {
+              color: #68bf12; }
+          .itemcon td.last .infoico .info-wrap .ri .bem {
+            background-image: url(../img/el4.png);
+            background-position: 22px 12px;
+            padding-left: 55px; }
+            .itemcon td.last .infoico .info-wrap .ri .bem span {
+              color: #68bf12; }
+    .itemcon td.last p {
+      color: #68bf12;
+      text-align: center;
+      width: 100%;
+      font-size: 39px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-top: 46px;
+      border-bottom: 1px solid #00cbff; }
+      .itemcon td.last p:nth-of-type(2) {
+        margin-top: 0; }
+      .itemcon td.last p:nth-of-type(3) {
+        margin-top: 0;
+        width: 121px;
+        letter-spacing: -2px; }
 
 /*# sourceMappingURL=style.css.map */
