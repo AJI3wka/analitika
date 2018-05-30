@@ -683,4 +683,15 @@ header {
         width: 121px;
         letter-spacing: -2px; }
 
+#maket {
+  position: absolute;
+  top: 103px;
+  left: 78px;
+  width: 100%;
+  background: url(../maket.jpg) no-repeat top center;
+  height: 13200px;
+  opacity: 0.5;
+  z-index: 10;
+  }
+
 /*# sourceMappingURL=style.css.map */
